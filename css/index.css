@@ -1,0 +1,137 @@
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+}
+
+html {
+  font-size: 26.67vw;
+  height: 100%;
+}
+
+body {
+  font-size: 0.12rem;
+  height: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+header {
+  height: 0.45rem;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.12rem;
+}
+header .takephoto {
+  width: 0.28rem;
+  height: 0.25rem;
+}
+header .sao {
+  width: 0.28rem;
+  height: 0.25rem;
+}
+header .title {
+  width: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.16rem;
+}
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #eeeeee;
+}
+section .autoshow {
+  width: 100%;
+  height: 1.02rem;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  overflow-x: auto;
+  background-color: #fafafa;
+}
+section .autoshow .autoshow_inner {
+  width: 5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section .autoshow .autoshow_inner .autoshow_menu .userpic {
+  width: 0.65rem;
+  height: 0.62rem;
+  display: block;
+  margin-bottom: 0.07rem;
+}
+section .autoshow .autoshow_inner .autoshow_menu .username {
+  text-align: center;
+}
+section .oneblog_menu {
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 0.1rem;
+}
+section .oneblog_menu .blog_message {
+  padding: 0 0.12rem;
+}
+section .oneblog_menu .blog_message .blog_message_inner {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.1rem 0 0.12rem;
+}
+section .oneblog_menu .blog_message .blog_message_inner .blog_word {
+  color: #333;
+  font-size: 0.16rem;
+}
+section .oneblog_menu .blog_message .blog_message_inner .blog_pic img {
+  width: 0.95rem;
+  height: 1.15rem;
+}
+section .oneblog_menu .blog_footer {
+  height: 0.33rem;
+  display: flex;
+  font-size: 0.13rem;
+  color: #636363;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  height: 0.45rem;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

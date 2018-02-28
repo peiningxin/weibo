@@ -1,0 +1,121 @@
+@charset "utf-8"; //支持中文注释
+@import "common"; //引入公共样式（不加下划线，不加后缀名）
+
+$green:#22bc69;
+$black:#354b60;
+$black2: #212121;
+$border:1px solid #e6e6e6;
+
+a{
+    color: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header{
+    height:0.45rem;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.12rem;
+    .takephoto{
+        width: 0.28rem;
+        height:0.25rem;
+    }
+    .sao{
+        width: 0.28rem;
+        height:0.25rem;
+    }
+    .title{
+        width:1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.16rem;
+        .title_l{
+           
+        }
+        .title_r{
+
+        }
+    }
+}
+section{
+    flex:1;
+    overflow-y:auto;
+    background-color: #eeeeee;
+    .autoshow{
+        width:100%;
+        height:1.02rem;
+        border-top:$border;
+        border-bottom:$border;
+        overflow-x: auto;
+        background-color: #fafafa;
+        .autoshow_inner{
+            width: 5rem;
+            height:100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .autoshow_menu{
+                .userpic{
+                    width: 0.65rem;
+                    height:0.62rem;
+                    display: block;
+                    margin-bottom: 0.07rem;
+                }
+                .username{
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+    .oneblog_menu{
+        background-color: #fff;
+        border-top:1px solid #e6e6e6;
+        border-bottom:1px solid #e6e6e6;
+        margin-bottom:0.1rem;
+        .blog_title{
+
+        }
+        .blog_message{
+            padding:0 0.12rem;
+            .blog_message_inner{
+                border-bottom:1px solid #e6e6e6;
+                padding:0.1rem 0 0.12rem;
+                .blog_word{
+                    color:#333;
+                    font-size: 0.16rem;
+                }
+                .blog_pic{
+                    img{
+                        width:0.95rem;
+                        height:1.15rem;
+                    }
+                }
+            }
+        }
+        .blog_footer{
+            height:0.33rem;
+            display: flex;
+            font-size: 0.13rem;
+            color:#636363;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
+footer{
+    height:0.45rem;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
